@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My PDF</title>
+  <style>
+    html, body { margin: 0; height: 100%; font-family: system-ui, sans-serif; }
+    iframe { width: 100%; height: calc(100% - 56px); border: 0; }
+    .bar { height: 56px; display: flex; align-items: center; justify-content: center; background: #111; }
+    .bar a { color: #fff; text-decoration: none; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="bar"><a href="document.pdf">Open / download PDF</a></div>
+  <iframe src="document.pdf" title="PDF"></iframe>
+
+  <!-- GoatCounter analytics: replace YOURCODE -->
+  <script data-goatcounter="https://YOURCODE.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
